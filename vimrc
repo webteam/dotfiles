@@ -8,7 +8,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 
@@ -26,7 +26,7 @@ set autoread                    "Reload files changed outside vim
 set autowrite                   " Save on buffer switch
 
 " This makes vim act like all other editors, buffers can
-" exist in the background without being in a window. 
+" exist in the background without being in a window.
 " http://items.sjbach.com/319/configuring-vim-right
 set hidden
 
@@ -38,7 +38,7 @@ syntax on
 set incsearch        "Find the next match as we type the search
 set hlsearch         "Hilight searches by default
 set ignorecase       "Ignore case in search patterns.
-set smartcase        "Override the 'ignorecase' option if the search 
+set smartcase        "Override the 'ignorecase' option if the search
                      "pattern contains upper case characters.
 set viminfo='100,f1  "Save up to 100 marks, enable capital marks
 
@@ -88,3 +88,7 @@ set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
+
+
+" Workaround: Ideally config dir should be sourced automatically (TODO)
+source ~/.vim/bundles.vim

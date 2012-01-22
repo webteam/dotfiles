@@ -1,0 +1,9 @@
+source ~/.vim/config/custom/settings.vim
+source ~/.vim/config/general/ack.vim
+source ~/.vim/config/general/settings.vim
+source ~/.vim/config/general/zoomwin.vim
+source ~/.vim/config/navigation/bufexplorer.vim
+source ~/.vim/config/navigation/lusty_explorer.vim
+source ~/.vim/config/navigation/lusty_juggler.vim
+source ~/.vim/config/navigation/nerdtree.vim
+source ~/.vim/config/navigation/rooter.vim
