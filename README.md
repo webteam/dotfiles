@@ -5,7 +5,9 @@
 1. `git clone git@github.com:webteam/dotfiles.git`
 2. `cd dotfiles`
 3. `git submodule init`
-4. run `bin/install.sh` 
+4. `git submodule update`
+5. Run `bin/install.sh` 
+6. Launch `vim`, run `:BundleInstall`
 
 Your dotfiles are safe! WDF will not overwrite anything. 
 
