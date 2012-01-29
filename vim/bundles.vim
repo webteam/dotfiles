@@ -11,6 +11,7 @@ source ~/.vim/config/editing/unimpaired.vim
 source ~/.vim/config/editing/yankring.vim
 source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/settings.vim
+source ~/.vim/config/general/vim-task.vim
 source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/navigation/file/easymotion.vim
 source ~/.vim/config/navigation/tree/bufexplorer.vim
@@ -30,6 +31,7 @@ source ~/.vim/config/programming/javascript/jquery.vim
 source ~/.vim/config/programming/javascript/vim-coffeescript.vim
 source ~/.vim/config/programming/javascript/vim-javascript.vim
 source ~/.vim/config/programming/javascript/vim-jst.vim
+source ~/.vim/config/programming/php/phpcomplete.vim
 source ~/.vim/config/programming/php/twig.vim
 source ~/.vim/config/programming/ruby_rails/cucumber.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim

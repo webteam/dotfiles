@@ -1,0 +1,7 @@
+2012-01-29
+==========
+
+ * initial release
+ * added abbreviation 'dtdy' to print current date
+ * added phpcomplete.vim
+ * added vim-task
