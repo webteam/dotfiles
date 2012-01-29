@@ -9,3 +9,6 @@ noremap <leader>f :NERDTreeFind<CR>
 " How can I close vim if the only window left open is a NERDTree?
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeQuitOnOpen=1
+
+"! ,n || toggle NERDTree
+"! ,f || find the current file in NERDTree

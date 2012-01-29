@@ -8,20 +8,22 @@
 let mapleader=","
 
 
-" Fast saving
+"! ,w || Fast saving
 nmap <leader>w :w!<cr>
 
-" Switch to normal mode like a boss
+"! jj || Switch to normal mode like a boss
 inoremap jj <Esc>:w<CR>
 
-" Close buffer
+"! ,d || Close buffer
 noremap <silent> ,dd :close<CR>
 
 
-" Can't live without them
-inoremap ;;  <ESC>A;<Esc>:w<CR>
 inoremap <M-o>       <Esc>o
+"! <C-k> || ->
+"! ;; || append ; at end of line and save
+inoremap ;;  <ESC>A;<Esc>:w<CR>
 imap <C-k> ->
+"! <C-l> || =>
 imap <C-l> <space>=><space>
 
 
