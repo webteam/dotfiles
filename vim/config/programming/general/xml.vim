@@ -11,3 +11,5 @@ Bundle "sukima/xmledit"
 map <Leader>x :set filetype=xml<CR>
   \:set foldmethod=syntax<CR>
 
+"! ,x || reformat visaully selected XML
+vmap ,x :!xmllint --format --recover - 2>/dev/null<CR>

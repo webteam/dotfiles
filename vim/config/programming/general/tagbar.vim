@@ -6,6 +6,6 @@
 " displayed under the class they are defined in.
 Bundle "majutsushi/tagbar"
 let g:tagbar_usearrows = 1
-noremap <leader>t :TagbarToggle<CR>
+noremap <leader>T :TagbarToggle<CR>
 
-"! ,t - toggle Tagbar window
+"! ,T - toggle Tagbar window

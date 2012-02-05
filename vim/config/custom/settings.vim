@@ -14,7 +14,7 @@ nmap <leader>w :w!<cr>
 "! jj || Switch to normal mode like a boss
 inoremap jj <Esc>:w<CR>
 
-"! ,d || Close buffer
+"! ,dd || Close buffer
 noremap <silent> ,dd :close<CR>
 
 
@@ -23,9 +23,19 @@ inoremap <M-o>       <Esc>o
 "! ;; || append ; at end of line and save
 inoremap ;;  <ESC>A;<Esc>:w<CR>
 imap <C-k> ->
-"! <C-l> || =>
-imap <C-l> <space>=><space>
+""! <C-l> || =>
+"imap <C-l> <space>=><space>
 
+"inoremap <D-Enter> <C-o>o
+
+" double percentage sign in command mode is expanded
+" to directory of current file - http://vimcasts.org/e/14
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+
+
+"! ,s || toggle spelling mode
+nmap <silent> <leader>s :set spell!<CR>
 
 
 
@@ -42,7 +52,7 @@ endif
 " Save on focus lost
 " http://stackoverflow.com/questions/2968548/vim-return-to-command-mode-when-focus-is-lost
 "au FocusLost,TabLeave * call feedkeys("\<C-\>\<C-n>")
-au FocusLost * :wa
+au FocusLost silent! :wa
 ":au FocusLost * call PopOutOfInsertMode()
 
 "function! PopOutOfInsertMode()

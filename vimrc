@@ -2,7 +2,7 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-
+ 
 " =============== Vundle Initialization ===============
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -61,10 +61,12 @@ set expandtab
 filetype plugin on
 filetype indent on
 
-" Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
-" Show tabs and end of line markers - not enabled per default
-set listchars=tab:▸\ ,eol:¬
+if has("gui_running")
+  " Display tabs and trailing spaces visually
+  set list listchars=tab:\ \ ,trail:·
+  " Show tabs and end of line markers - not enabled per default
+  set listchars=tab:▸\ ,eol:¬
+endif  
 set nolist
 
 
