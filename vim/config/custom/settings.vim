@@ -52,7 +52,7 @@ endif
 " Save on focus lost
 " http://stackoverflow.com/questions/2968548/vim-return-to-command-mode-when-focus-is-lost
 "au FocusLost,TabLeave * call feedkeys("\<C-\>\<C-n>")
-au FocusLost silent! :wa
+au FocusLost * silent! :wa
 ":au FocusLost * call PopOutOfInsertMode()
 
 "function! PopOutOfInsertMode()
