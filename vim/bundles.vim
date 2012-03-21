@@ -1,3 +1,4 @@
+source ~/.vim/config/colorschemes/smyck.vim
 source ~/.vim/config/colorschemes/solarized.vim
 source ~/.vim/config/colorschemes/xoria256.vim
 source ~/.vim/config/custom/settings.vim
@@ -6,6 +7,7 @@ source ~/.vim/config/custom/window.vim
 source ~/.vim/config/editing/align.vim
 source ~/.vim/config/editing/autoclose.vim
 source ~/.vim/config/editing/delimitMate.vim
+source ~/.vim/config/editing/dokuwiki.vim
 source ~/.vim/config/editing/indent-guides.vim
 source ~/.vim/config/editing/matchit.vim
 source ~/.vim/config/editing/neocomplcache.vim
@@ -29,6 +31,7 @@ source ~/.vim/config/navigation/tree/lusty_juggler.vim
 source ~/.vim/config/navigation/tree/nerdtree.vim
 source ~/.vim/config/navigation/tree/rooter.vim
 source ~/.vim/config/programming/general/fugitive.vim
+source ~/.vim/config/programming/general/gitv.vim
 source ~/.vim/config/programming/general/nerdcommenter.vim
 source ~/.vim/config/programming/general/ragtag.vim
 source ~/.vim/config/programming/general/syntastic.vim
@@ -38,6 +41,7 @@ source ~/.vim/config/programming/html_css/haml.vim
 source ~/.vim/config/programming/html_css/zencoding.vim
 source ~/.vim/config/programming/javascript/jquery.vim
 source ~/.vim/config/programming/javascript/vim-coffeescript.vim
+source ~/.vim/config/programming/javascript/vim-handlebars.vim
 source ~/.vim/config/programming/javascript/vim-javascript.vim
 source ~/.vim/config/programming/javascript/vim-jst.vim
 source ~/.vim/config/programming/php/phpcomplete.vim

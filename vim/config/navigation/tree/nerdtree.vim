@@ -10,5 +10,9 @@ noremap <leader>f :NERDTreeFind<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 let NERDTreeQuitOnOpen=1
 
+
+" https://github.com/scrooloose/nerdtree/issues/108
+let g:NERDTreeDirArrows=0
+
 "! ,n || toggle NERDTree
 "! ,f || find the current file in NERDTree

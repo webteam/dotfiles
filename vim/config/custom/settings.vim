@@ -32,7 +32,9 @@ imap <C-k> ->
 " to directory of current file - http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-
+"! <BS> || clear hlsearch
+" NOTE mapping to ESC did cause some wierd behaviour
+nnoremap <BS> :noh<CR><BS>
 
 "! ,s || toggle spelling mode
 nmap <silent> <leader>s :set spell!<CR>

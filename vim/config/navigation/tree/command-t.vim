@@ -1,5 +1,4 @@
-" Command-T
-"
+
 " The Command-T plug-in provides an extremely fast, intuitive mechanism for
 " opening files with a minimal number of keystrokes. It's named 'Command-T'
 " because it is inspired by the 'Go to File' window bound to Command-T in
@@ -9,6 +8,7 @@ let g:CommandTMaxHeight=20
 
 
 "! ,t || brings up the Command-T file window
+"! ,, || brings up the Command-T file window
 "! ,u || brings up the Command-T file window (relative to current dir)
 "! <D-t> || brings up the Command-T file window
 
@@ -27,6 +27,7 @@ if has('ruby')
 
   " Leader Commands
   nnoremap <leader>t :CommandT<CR>
+  nnoremap <leader>, :CommandT<CR>
   nnoremap <leader>u :CommandT %%<CR>
 else
   " Fallback on ctrlp.vim if Ruby for Command T not available
