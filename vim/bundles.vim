@@ -1,4 +1,4 @@
-source ~/.vim/config/colorschemes/smyck.vim
+source ~/.vim/config/colorschemes/github.vim
 source ~/.vim/config/colorschemes/solarized.vim
 source ~/.vim/config/colorschemes/xoria256.vim
 source ~/.vim/config/custom/settings.vim
@@ -6,7 +6,7 @@ source ~/.vim/config/custom/ui.vim
 source ~/.vim/config/custom/window.vim
 source ~/.vim/config/editing/align.vim
 source ~/.vim/config/editing/autoclose.vim
-source ~/.vim/config/editing/delimitMate.vim
+"source ~/.vim/config/editing/delimitMate.vim
 source ~/.vim/config/editing/dokuwiki.vim
 source ~/.vim/config/editing/indent-guides.vim
 source ~/.vim/config/editing/matchit.vim
@@ -16,6 +16,7 @@ source ~/.vim/config/editing/supertab.vim
 source ~/.vim/config/editing/surround.vim
 source ~/.vim/config/editing/textile.vim
 source ~/.vim/config/editing/unimpaired.vim
+source ~/.vim/config/editing/vim-smartinput.vim
 source ~/.vim/config/editing/yankring.vim
 source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/powerline.vim
