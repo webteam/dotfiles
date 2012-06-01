@@ -6,8 +6,9 @@ source ~/.vim/config/custom/ui.vim
 source ~/.vim/config/custom/window.vim
 source ~/.vim/config/editing/align.vim
 source ~/.vim/config/editing/autoclose.vim
-"source ~/.vim/config/editing/delimitMate.vim
+source ~/.vim/config/editing/delimitMate.vim
 source ~/.vim/config/editing/dokuwiki.vim
+source ~/.vim/config/editing/gundo.vim
 source ~/.vim/config/editing/indent-guides.vim
 source ~/.vim/config/editing/matchit.vim
 source ~/.vim/config/editing/neocomplcache.vim
@@ -22,6 +23,7 @@ source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/powerline.vim
 source ~/.vim/config/general/vim-pasta.vim
 source ~/.vim/config/general/vim-task.vim
+source ~/.vim/config/general/vitality.vim
 source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/navigation/file/easymotion.vim
 source ~/.vim/config/navigation/tree/bufexplorer.vim
