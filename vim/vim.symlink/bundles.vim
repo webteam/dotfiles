@@ -18,7 +18,6 @@ source ~/.vim/config/editing/surround.vim
 source ~/.vim/config/editing/textile.vim
 source ~/.vim/config/editing/unimpaired.vim
 source ~/.vim/config/editing/vim-smartinput.vim
-source ~/.vim/config/editing/yankring.vim
 source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/powerline.vim
 source ~/.vim/config/general/vim-pasta.vim
@@ -27,18 +26,15 @@ source ~/.vim/config/general/vitality.vim
 source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/navigation/file/easymotion.vim
 source ~/.vim/config/navigation/tree/bufexplorer.vim
-source ~/.vim/config/navigation/tree/command-t.vim
 source ~/.vim/config/navigation/tree/ctrlp.vim
-source ~/.vim/config/navigation/tree/lusty_explorer.vim
 source ~/.vim/config/navigation/tree/lusty_juggler.vim
 source ~/.vim/config/navigation/tree/nerdtree.vim
 source ~/.vim/config/navigation/tree/rooter.vim
 source ~/.vim/config/programming/general/fugitive.vim
 source ~/.vim/config/programming/general/gitv.vim
-source ~/.vim/config/programming/general/nerdcommenter.vim
 source ~/.vim/config/programming/general/ragtag.vim
-source ~/.vim/config/programming/general/syntastic.vim
 source ~/.vim/config/programming/general/tagbar.vim
+source ~/.vim/config/programming/general/tcomment.vim
 source ~/.vim/config/programming/general/xml.vim
 source ~/.vim/config/programming/html_css/haml.vim
 source ~/.vim/config/programming/html_css/zencoding.vim

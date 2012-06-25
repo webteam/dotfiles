@@ -2,20 +2,27 @@
 Bundle 'kien/ctrlp.vim'
 
 
+" TODO
+"! ,j || switch to your previously used buffer
+"! ,k || opens mini buffer explorer
+"! ,, || brings up the Command-T file window
 
-" Ensure max height isn't too large. (for performance)
-let g:ctrlp_max_height = 10
-let g:CommandTMaxHeight = 10
+nnoremap <leader>, :CtrlP<CR>
+nnoremap <leader>k :CtrlPBuffer<CR>
+nnoremap <leader>m :CtrlPMRU<CR>
 
-" Mapping from ctrlp we always use
-if has('gui_macvim')
-  nnoremap <silent><D-u> :CtrlPCurFile<CR>
-  nnoremap <silent><D-y> :CtrlPMRUFiles<CR>
-else
-  nnoremap <silent><M-u> :CtrlPCurFile<CR>
-  nnoremap <silent><M-y> :CtrlPMRUFiles<CR>
-end
 
-" Also map leader commands
-nnoremap <leader>u :CtrlPCurFile<CR>
-nnoremap <leader>y :CtrlPMRUFiles<CR>
+
+let g:ctrlp_custom_ignore = {
+	\ 'dir':  '\.git$\|\.hg$\|\.svn|\.rsync_cache$',
+	\ 'file': '\.swp$\|\.so$\|\.zip$',
+	\ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+	\ }
+
+let g:ctrlp_user_command = {
+  	\ 'types': {
+  		\ 1: ['.git/', 'cd %s && git ls-files'],
+  		\ 2: ['.hg/', 'hg --cwd %s locate -I .'],
+  		\ },
+  	\ 'fallback': 'find %s -type f'
+  	\ }
