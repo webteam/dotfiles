@@ -43,10 +43,13 @@ source ~/.vim/config/programming/javascript/vim-coffeescript.vim
 source ~/.vim/config/programming/javascript/vim-handlebars.vim
 source ~/.vim/config/programming/javascript/vim-javascript.vim
 source ~/.vim/config/programming/javascript/vim-jst.vim
+source ~/.vim/config/programming/php/indent.vim
 source ~/.vim/config/programming/php/phpcomplete.vim
+source ~/.vim/config/programming/php/syntax.vim
 source ~/.vim/config/programming/php/twig.vim
 source ~/.vim/config/programming/ruby_rails/cucumber.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim
 source ~/.vim/config/programming/ruby_rails/rails.vim
 source ~/.vim/config/programming/ruby_rails/refactor.vim
 source ~/.vim/config/programming/ruby_rails/rspec.vim
+source ~/.vim/config/programming/ruby_rails/ruby.vim
