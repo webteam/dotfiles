@@ -23,7 +23,7 @@ Your dotfiles are safe! WDF will not overwrite anything.
 
 #### Vim
 
-*  [Documentation](tree/master/vim)
+*  [Documentation](/webteam/dotfiles/tree/master/vim)
 
 #### Tmux
 
