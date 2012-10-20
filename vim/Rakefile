@@ -17,6 +17,7 @@ SOURCE_FILE = 'vim.symlink/bundles.vim'
 
 FILES_TO_LINK = %w{vimrc.symlink gvimrc.symlink}
 
+task :default => ["plugins:update"]
 
 namespace :plugins do
 
@@ -141,6 +142,7 @@ def parse_plugins
   plugins = {:bundles => {}, :keymaps => {}}
   Dir.glob("#{PLUGIN_PATH}/**/*.vim") do |file|
     print "."
+    puts file
     categories = File.dirname(file).gsub("#{PLUGIN_PATH}/", '').split("/")
     raise ArgumentError("categories nested to deeply") if categories.length > 2
 

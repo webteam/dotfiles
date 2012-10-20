@@ -17,6 +17,8 @@ inoremap jj <Esc>:w<CR>
 "! ,dd || Close buffer
 noremap <silent> ,dd :close<CR>
 
+"! K || Split line
+nmap K i<cr><esc>k
 
 inoremap <M-o>       <Esc>o
 "! <C-k> || ->

@@ -1,7 +1,7 @@
-"Introduce a recently written vim plugin for GTD, basically it’s just the TextMate Tasks Bundle port for Vim.
+"Introduce a recently written vim plugin for GTD, basically it just the TextMate Tasks Bundle port for Vim.
 "
-"Headers end with a colon (“:”).
-"Pending (uncompleted) tasks start with a hyphen (“-”). Completed tasks start with a checkmark (“✓”).
+"Headers end with a colon
+"Pending (uncompleted) tasks start with a hyphen. Completed tasks start with a checkmark.
 "Headers and tasks can be indented for grouping/hierarchy, as seen in the screenshot above
 Bundle "samsonw/vim-task"
 

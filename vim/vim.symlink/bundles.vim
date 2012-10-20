@@ -10,6 +10,7 @@ source ~/.vim/config/editing/delimitMate.vim
 source ~/.vim/config/editing/dokuwiki.vim
 source ~/.vim/config/editing/gundo.vim
 source ~/.vim/config/editing/indent-guides.vim
+source ~/.vim/config/editing/latex.vim
 source ~/.vim/config/editing/matchit.vim
 source ~/.vim/config/editing/neocomplcache.vim
 source ~/.vim/config/editing/pandoc.vim
@@ -39,13 +40,13 @@ source ~/.vim/config/programming/general/xml.vim
 source ~/.vim/config/programming/html_css/haml.vim
 source ~/.vim/config/programming/html_css/zencoding.vim
 source ~/.vim/config/programming/javascript/jquery.vim
+source ~/.vim/config/programming/javascript/jshint.vim
 source ~/.vim/config/programming/javascript/vim-coffeescript.vim
 source ~/.vim/config/programming/javascript/vim-handlebars.vim
 source ~/.vim/config/programming/javascript/vim-javascript.vim
 source ~/.vim/config/programming/javascript/vim-jst.vim
-source ~/.vim/config/programming/php/indent.vim
 source ~/.vim/config/programming/php/phpcomplete.vim
-source ~/.vim/config/programming/php/syntax.vim
+source ~/.vim/config/programming/php/piv.vim
 source ~/.vim/config/programming/php/twig.vim
 source ~/.vim/config/programming/ruby_rails/cucumber.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim
