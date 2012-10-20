@@ -5,4 +5,5 @@
 " possible choices and allowing you to press one key to jump directly to the
 " target.
 Bundle 'Lokaltog/vim-easymotion'
-let g:EasyMotion_leader_key = 'e'
+"! m || start EasyMotion
+let g:EasyMotion_leader_key = 'm'

@@ -1,19 +1,17 @@
 " Window Movement
+"! <C-hjkl> || move between windows
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
-" Previous Window
-nmap <silent> <C-p> :wincmd p<CR>
 
-" Equal Size Windows
+"! ,ww || equal size windows
 nmap <silent> <leader>ww :wincmd =<CR>
 
 " Window Splitting
-nmap <silent> <leader>sh :split<CR>
-nmap <silent> <leader>sv :vsplit<CR>
-" Because I'm dyslexic
+"! ,hs || vertical split
 nmap <silent> <leader>hs :split<CR>
+"! ,vs || vertical split
 nmap <silent> <leader>vs :vsplit<CR>
+"! ,cs || close (split) window
 nmap <silent> <leader>sc :close<CR>
-nmap <silent> <C-x> :close<CR>
