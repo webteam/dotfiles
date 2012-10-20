@@ -1,1 +1,0 @@
-Bundle "vim-scripts/php.vim--Garvin"
