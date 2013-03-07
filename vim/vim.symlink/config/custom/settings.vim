@@ -11,6 +11,9 @@ let mapleader=","
 "! ,w || Fast saving
 nmap <leader>w :w!<cr>
 
+"! Enter || Save in normal mode
+nmap <CR> :w<CR>
+
 "! jj || Switch to normal mode like a boss
 inoremap jj <Esc>:w<CR>
 
@@ -40,7 +43,6 @@ nnoremap <BS> :noh<CR><BS>
 
 "! ,s || toggle spelling mode
 nmap <silent> <leader>s :set spell!<CR>
-
 
 
 " ========================================
