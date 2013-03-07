@@ -27,6 +27,7 @@ source ~/.vim/config/programming/general/ragtag.vim
 source ~/.vim/config/programming/general/tagbar.vim
 source ~/.vim/config/programming/general/fugitive.vim
 source ~/.vim/config/programming/general/gitv.vim
+source ~/.vim/config/programming/general/git_gutter.vim
 source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/powerline.vim
 source ~/.vim/config/general/vim-task.vim
@@ -35,7 +36,6 @@ source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/general/vim-pasta.vim
 source ~/.vim/config/custom/ui.vim
 source ~/.vim/config/custom/window.vim
-source ~/.vim/config/custom/settings.vim
 source ~/.vim/config/colorschemes/xoria256.vim
 source ~/.vim/config/colorschemes/github.vim
 source ~/.vim/config/colorschemes/solarized.vim
