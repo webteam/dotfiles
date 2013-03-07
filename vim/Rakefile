@@ -28,6 +28,7 @@ namespace :plugins do
   task :source_config do
     File.open(SOURCE_FILE, 'w') do |source|
       Dir.glob("#{PLUGIN_PATH}/**/*.vim") do |file|
+        next if file =~ /custom\/settings/
         source << file.gsub(PLUGIN_PATH, 'source ~/.vim/config') + "\n"
       end
     end

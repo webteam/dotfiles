@@ -2,7 +2,6 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
- 
 " =============== Vundle Initialization ===============
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -66,7 +65,7 @@ if has("gui_running")
   set list listchars=tab:\ \ ,trail:·
   " Show tabs and end of line markers - not enabled per default
   set listchars=tab:▸\ ,eol:¬
-endif  
+endif
 set nolist
 
 
@@ -93,4 +92,5 @@ set sidescroll=1
 
 
 " Workaround: Ideally config dir should be sourced automatically (TODO)
+source ~/.vim/config/custom/settings.vim
 source ~/.vim/bundles.vim
