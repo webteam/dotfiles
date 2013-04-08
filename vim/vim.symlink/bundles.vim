@@ -25,6 +25,7 @@ source ~/.vim/config/programming/general/tcomment.vim
 source ~/.vim/config/programming/general/xml.vim
 source ~/.vim/config/programming/general/ragtag.vim
 source ~/.vim/config/programming/general/tagbar.vim
+source ~/.vim/config/programming/general/scala.vim
 source ~/.vim/config/programming/general/fugitive.vim
 source ~/.vim/config/programming/general/gitv.vim
 source ~/.vim/config/programming/general/git_gutter.vim
