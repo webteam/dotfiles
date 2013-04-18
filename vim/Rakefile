@@ -28,7 +28,7 @@ namespace :plugins do
   task :source_config do
     File.open(SOURCE_FILE, 'w') do |source|
       Dir.glob("#{PLUGIN_PATH}/**/*.vim") do |file|
-        next if file =~ /custom\/settings/
+        next if file =~ /custom\/settings/ || file =~ /endwise/
         source << file.gsub(PLUGIN_PATH, 'source ~/.vim/config') + "\n"
       end
     end
@@ -212,7 +212,8 @@ def convert_to_link_hash(link)
 end
 
 def fetch_github_repo_description(user, name)
-  response = ''
+  response = 'Temporarily no description available (TODO chm)'
+  return response
   begin
     if RUBY_VERSION < '1.9'
       response = open("https://api.github.com/repos/#{user}/#{name}").read

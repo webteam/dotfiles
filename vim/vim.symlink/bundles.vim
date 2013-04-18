@@ -9,7 +9,6 @@ source ~/.vim/config/programming/php/twig.vim
 source ~/.vim/config/programming/php/phpcomplete.vim
 source ~/.vim/config/programming/html_css/zencoding.vim
 source ~/.vim/config/programming/html_css/haml.vim
-source ~/.vim/config/programming/ruby_rails/endwise.vim
 source ~/.vim/config/programming/ruby_rails/rails.vim
 source ~/.vim/config/programming/ruby_rails/cucumber.vim
 source ~/.vim/config/programming/ruby_rails/ruby.vim
@@ -44,9 +43,7 @@ source ~/.vim/config/editing/surround.vim
 source ~/.vim/config/editing/autoclose.vim
 source ~/.vim/config/editing/indent-guides.vim
 source ~/.vim/config/editing/supertab.vim
-source ~/.vim/config/editing/delimitMate.vim
 source ~/.vim/config/editing/textile.vim
-source ~/.vim/config/editing/vim-smartinput.vim
 source ~/.vim/config/editing/unimpaired.vim
 source ~/.vim/config/editing/pandoc.vim
 source ~/.vim/config/editing/neocomplcache.vim
