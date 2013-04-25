@@ -94,4 +94,5 @@ set sidescroll=1
 " Workaround: Ideally config dir should be sourced automatically (TODO)
 source ~/.vim/config/custom/settings.vim
 source ~/.vim/bundles.vim
+source ~/.vim/config/custom/mail.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim
