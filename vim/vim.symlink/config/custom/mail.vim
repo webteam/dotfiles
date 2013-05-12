@@ -1,7 +1,7 @@
 au FileType mail call Setup_mail()
 
 
-function Setup_mail()
+function! Setup_mail()
   set lines=50
   set columns=90
   set textwidth=72
