@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # Rakefile
 #
 # Simple tasks for managing my .vim files
@@ -147,7 +148,7 @@ def parse_plugins
     categories = File.dirname(file).gsub("#{PLUGIN_PATH}/", '').split("/")
     raise ArgumentError("categories nested to deeply") if categories.length > 2
 
-    File.new(file).each do |line|
+    File.open(file, "r:UTF-8").each do |line|
       if line =~ /^Bundle\s+["'](.+)["']/
         plugins[:bundles] = add_categories_to_plugins(plugins[:bundles], categories, convert_to_link_hash($1))
       end
