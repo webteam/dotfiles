@@ -40,3 +40,7 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 
 " Adds text-objects for word-based columns in Vim
 Bundle 'coderifous/textobj-word-column.vim'
+
+
+" Vim text objects for comments
+"Bundle 'glts/vim-textobj-comment'

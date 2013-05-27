@@ -36,6 +36,7 @@ source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/general/vim-pasta.vim
 source ~/.vim/config/custom/ui.vim
 source ~/.vim/config/custom/window.vim
+source ~/.vim/config/custom/mail.vim
 source ~/.vim/config/colorschemes/xoria256.vim
 source ~/.vim/config/colorschemes/github.vim
 source ~/.vim/config/colorschemes/solarized.vim
@@ -48,6 +49,7 @@ source ~/.vim/config/editing/unimpaired.vim
 source ~/.vim/config/editing/pandoc.vim
 source ~/.vim/config/editing/neocomplcache.vim
 source ~/.vim/config/editing/matchit.vim
+source ~/.vim/config/editing/covim.vim
 source ~/.vim/config/editing/latex.vim
 source ~/.vim/config/editing/gundo.vim
 source ~/.vim/config/editing/align.vim
