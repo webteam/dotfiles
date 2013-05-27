@@ -50,7 +50,6 @@ source ~/.vim/config/editing/unimpaired.vim
 source ~/.vim/config/editing/pandoc.vim
 source ~/.vim/config/editing/neocomplcache.vim
 source ~/.vim/config/editing/matchit.vim
-source ~/.vim/config/editing/covim.vim
 source ~/.vim/config/editing/latex.vim
 source ~/.vim/config/editing/gundo.vim
 source ~/.vim/config/editing/align.vim
