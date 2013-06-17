@@ -31,7 +31,7 @@ source ~/.vim/config/programming/general/git_gutter.vim
 source ~/.vim/config/general/ack.vim
 source ~/.vim/config/general/gist.vim
 source ~/.vim/config/general/powerline.vim
-source ~/.vim/config/general/vim-task.vim
+source ~/.vim/config/general/vim-notes.vim
 source ~/.vim/config/general/vitality.vim
 source ~/.vim/config/general/zoomwin.vim
 source ~/.vim/config/general/vim-pasta.vim
