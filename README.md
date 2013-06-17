@@ -27,3 +27,7 @@ Your dotfiles are safe! WDF will not overwrite anything.
 
 #### Tmux
 
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/webteam/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
