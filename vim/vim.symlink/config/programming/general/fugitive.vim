@@ -1,7 +1,7 @@
 " fugitive
 "
 " Git integration
-Bundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-fugitive'
 
 "! ,gc || git commit
 nmap <Leader>gc :Gcommit<CR>

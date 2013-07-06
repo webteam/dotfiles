@@ -5,4 +5,4 @@
 "! ,be || open buffer explorer
 "! ,bs || split open buffer explorer
 "! ,bv || vertical split open buffer explorer
-Bundle 'bufexplorer.zip'
+NeoBundle 'bufexplorer.zip'

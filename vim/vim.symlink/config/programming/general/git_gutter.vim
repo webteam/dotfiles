@@ -1,5 +1,5 @@
 " A Vim plugin which shows a git diff in the gutter (sign column).
-Bundle 'airblade/vim-gitgutter'
+NeoBundle 'airblade/vim-gitgutter'
 
 
 "! <C-Down> || GitGutterNextHunk

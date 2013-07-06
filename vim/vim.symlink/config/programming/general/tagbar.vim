@@ -4,7 +4,7 @@
 " provides a sidebar that displays the ctags-generated tags of the current
 " file, ordered by their scope. This means that for example methods in C++ are
 " displayed under the class they are defined in.
-Bundle "majutsushi/tagbar"
+NeoBundle "majutsushi/tagbar"
 let g:tagbar_usearrows = 1
 noremap <leader>T :TagbarToggle<CR>
 

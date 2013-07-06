@@ -1,5 +1,5 @@
 " Ultimate auto-completion system for Vim.
-" (chm) " Bundle "Shougo/neocomplcache"
+" (chm) " NeoBundle "Shougo/neocomplcache"
 " (chm) " let g:neocomplcache_enable_at_startup = 1
 " (chm) "
 " (chm) " "imap <expr><TAB> neocomplcache#sources#snippets_complete#expandable() ? "\<Plug>(neocomplcache_snippets_expand)" : pumvisible() ? "\<C-n>" : "\<TAB>"

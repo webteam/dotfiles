@@ -7,7 +7,7 @@
 " (pressing '>') the tag will be completed. If you press '>' twice it will
 " complete the tag and place the cursor in the middle of the tags on it's own
 " line.
-Bundle "sukima/xmledit"
+NeoBundle "sukima/xmledit"
 map <Leader>x :set filetype=xml<CR>
   \:set foldmethod=syntax<CR>
 

@@ -1,1 +1,1 @@
-Bundle "xoria256.vim"
+NeoBundle "xoria256.vim"

@@ -1,6 +1,6 @@
 " An extensible & universal comment vim-plugin that also handles embedded
 " filetypes
-Bundle "tomtom/tcomment_vim"
+NeoBundle "tomtom/tcomment_vim"
 
 
 "! ,c<Space> || Comment the current line

@@ -1,7 +1,7 @@
 " Nerdtree
 "
 " A tree explorer plugin for vim
-Bundle "scrooloose/nerdtree"
+NeoBundle "scrooloose/nerdtree"
 noremap <leader>n :NERDTreeToggle<CR>
 noremap <leader>f :NERDTreeFind<CR>
 " How can I open a NERDTree automatically when vim starts up?

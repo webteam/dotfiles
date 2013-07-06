@@ -1,4 +1,4 @@
 " gitk for Vim
-Bundle 'gregsexton/gitv'
+NeoBundle 'gregsexton/gitv'
 
 cabbrev gitv Gitv

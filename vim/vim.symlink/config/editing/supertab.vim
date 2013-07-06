@@ -2,7 +2,7 @@
 "
 " Supertab aims to provide tab completion to satisfy all your insert
 " completion needs
-Bundle 'ervandew/supertab'
+NeoBundle 'ervandew/supertab'
 
 " Set these up for cross-buffer completion (something Neocachecompl has a hard
 " time with)

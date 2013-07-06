@@ -1,3 +1,3 @@
 " Textile for VIM
-Bundle 'timcharper/textile.vim'
+NeoBundle 'timcharper/textile.vim'
 

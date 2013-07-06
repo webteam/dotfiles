@@ -1,4 +1,4 @@
-Bundle "nono/vim-handlebars"
+NeoBundle "nono/vim-handlebars"
 
 if has("autocmd")
   au BufNewFile,BufRead *.handlebars,*.hbs set filetype=handlebars

@@ -1,4 +1,4 @@
-Bundle "LaTeX-Box-Team/LaTeX-Box"
+NeoBundle "LaTeX-Box-Team/LaTeX-Box"
 
 nmap <leader>l :w<CR>:Latexmk<CR>
 

@@ -1,4 +1,4 @@
-Bundle "vim-ruby/vim-ruby"
+NeoBundle "vim-ruby/vim-ruby"
 
 
 autocmd FileType ruby nmap <leader>d orequire 'pry' ; binding.pry<ESC>

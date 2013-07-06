@@ -1,6 +1,6 @@
 " Autoclose ([{"'
 
-" Bundle 'jiangmiao/auto-pairs'
+" NeoBundle 'jiangmiao/auto-pairs'
 
 
 
@@ -10,7 +10,7 @@
 " ===========
 
 " Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc.
-Bundle "Raimondi/delimitMate"
+NeoBundle "Raimondi/delimitMate"
 
 let delimitMate_expand_space = 1
 let delimitMate_expand_cr = 1
@@ -23,7 +23,7 @@ imap <C-l> <Plug>delimitMateS-Tab
 " ==========
 
 " Provide smart input assistant
-" Bundle "kana/vim-smartinput"
+" NeoBundle "kana/vim-smartinput"
 
 
 " autoclose
@@ -32,5 +32,5 @@ imap <C-l> <Plug>delimitMateS-Tab
 " This plugin for Vim enable an auto-close chars feature for you. For instance
 " if you type an '(', ``autoclose`` will automatically insert a ')' and put
 " the cursor between than.
-" Bundle 'Townk/vim-autoclose'
+" NeoBundle 'Townk/vim-autoclose'
 

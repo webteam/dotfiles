@@ -1,3 +1,3 @@
 " jshint
-Bundle "wookiehangover/jshint.vim"
+NeoBundle "wookiehangover/jshint.vim"
 

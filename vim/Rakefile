@@ -14,7 +14,6 @@ KEYMAP_TAG = '### Keymappings'
 VIMRC_FILE = 'vimrc.symlink'
 README_FILE = 'README.md'
 PLUGIN_PATH = 'vim.symlink/config'
-SOURCE_FILE = 'vim.symlink/bundles.vim'
 
 FILES_TO_LINK = %w{vimrc.symlink gvimrc.symlink}
 
@@ -22,17 +21,7 @@ task :default => ["plugins:update"]
 
 namespace :plugins do
 
-  task :update => [:update_readme, :source_config] do
-  end
-
-  desc 'workaround - plugins vundle'
-  task :source_config do
-    File.open(SOURCE_FILE, 'w') do |source|
-      Dir.glob("#{PLUGIN_PATH}/**/*.vim") do |file|
-        next if file =~ /custom\/settings/ || file =~ /endwise/
-        source << file.gsub(PLUGIN_PATH, 'source ~/.vim/config') + "\n"
-      end
-    end
+  task :update => [:update_readme] do
   end
 
   desc 'Update the list of plugins in README.md'
@@ -149,7 +138,7 @@ def parse_plugins
     raise ArgumentError("categories nested to deeply") if categories.length > 2
 
     File.open(file, "r:UTF-8").each do |line|
-      if line =~ /^Bundle\s+["'](.+)["']/
+      if line =~ /^NeoBundle\s+["'](.+)["']/
         plugins[:bundles] = add_categories_to_plugins(plugins[:bundles], categories, convert_to_link_hash($1))
       end
 

@@ -1,2 +1,2 @@
 " surround.vim: quoting/parenthesizing made simple
-Bundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-surround'

@@ -1,5 +1,5 @@
 " Fuzzy file, buffer, mru and tag finder
-Bundle 'kien/ctrlp.vim'
+NeoBundle 'kien/ctrlp.vim'
 
 
 " TODO

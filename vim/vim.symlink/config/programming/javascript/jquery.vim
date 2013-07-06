@@ -1,2 +1,2 @@
 " JQuery
-Bundle "jQuery"
+NeoBundle "jQuery"

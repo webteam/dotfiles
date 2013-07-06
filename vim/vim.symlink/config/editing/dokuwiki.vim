@@ -1,2 +1,2 @@
 
-Bundle 'nblock/vim-dokuwiki'
+NeoBundle 'nblock/vim-dokuwiki'

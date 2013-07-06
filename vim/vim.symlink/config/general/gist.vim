@@ -1,4 +1,4 @@
 " This is a vimscript for creating gists
-Bundle 'mattn/gist-vim'
+NeoBundle 'mattn/gist-vim'
 
-Bundle 'mattn/webapi-vim'
+NeoBundle 'mattn/webapi-vim'

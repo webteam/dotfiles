@@ -1,2 +1,2 @@
 " Vim scala
-Bundle 'derekwyatt/vim-scala'
+NeoBundle 'derekwyatt/vim-scala'

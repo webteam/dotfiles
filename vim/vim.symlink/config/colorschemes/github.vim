@@ -1,1 +1,1 @@
-Bundle "acarapetis/vim-github-theme"
+NeoBundle "acarapetis/vim-github-theme"
