@@ -41,6 +41,7 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+set t_Co=256
 
 " ================ Search Settings  =================
 
@@ -115,3 +116,4 @@ source ~/.vim/config/custom/mail.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim
 
 " NeoBundleCheck
+NeoBundle 'yonchu/accelerated-smooth-scroll'
