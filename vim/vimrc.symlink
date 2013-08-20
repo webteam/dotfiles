@@ -114,6 +114,7 @@ for plugin_file in split(glob('~/.vim/config/**/*/*.vim'), '\n')
 endfor
 source ~/.vim/config/custom/mail.vim
 source ~/.vim/config/programming/ruby_rails/endwise.vim
+source ~/.vim/custom.vim
 
 " NeoBundleCheck
 NeoBundle 'yonchu/accelerated-smooth-scroll'
