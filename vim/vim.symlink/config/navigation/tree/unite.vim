@@ -12,7 +12,7 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 nnoremap <leader>, :<C-u>Unite -no-split -buffer-name=files   -start-insert buffer file_rec/async:!<cr>
 nnoremap <leader>m :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<cr>
 nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<cr>
-nnoremap <leader>k :<C-u>Unite -no-split -buffer-name=buffer  buffer<cr>
+nnoremap <leader>k :<C-u>Unite -no-split -buffer-name=buffer  -start-insert buffer<cr>
 nnoremap <leader>s :Unite -quick-match buffer<cr>
 
 
@@ -32,6 +32,12 @@ function! s:unite_settings()
   imap <buffer> <C-j>   <Plug>(unite_select_next_line)
   imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
 endfunction
+
+if executable('ag')
+  let g:unite_source_grep_command = 'ag'
+  let g:unite_source_grep_default_opts = '--nogroup --nocolor --column'
+  let g:unite_source_grep_recursive_opt = ''
+endif
 
 
 if executable('ack-grep')
