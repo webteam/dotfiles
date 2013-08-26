@@ -1,8 +1,8 @@
 set background=dark
-colorscheme luna
+colorscheme Tomorrow-Night
 
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'luna'
+let g:airline_powerline_fonts = 0
+let g:airline_theme = 'dark'
 
 
 if has("gui_running")
