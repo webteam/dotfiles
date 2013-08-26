@@ -43,4 +43,8 @@ NeoBundle 'coderifous/textobj-word-column.vim'
 
 
 " Vim text objects for comments
-"NeoBundle 'glts/vim-textobj-comment'
+NeoBundle 'glts/vim-textobj-comment'
+
+
+" Text objects for entire buffer
+NeoBundle 'kana/vim-textobj-entire'
