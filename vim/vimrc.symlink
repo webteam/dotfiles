@@ -21,6 +21,16 @@ NeoBundle 'Shougo/vimproc', {
       \    },
       \ }
 
+" ================ Load Plugin ========================
+
+source ~/.vim/config/custom/settings.vim
+for plugin_file in split(glob('~/.vim/config/**/*/*.vim'), '\n')
+     exe 'silent source' plugin_file
+endfor
+source ~/.vim/config/custom/mail.vim
+source ~/.vim/config/programming/ruby_rails/endwise.vim
+source ~/.vim/custom.vim
+
 " ================ General Config ====================
 
 set number                      "Line numbers are good
@@ -106,15 +116,6 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 
-" ================ Load Plugin ========================
-
-source ~/.vim/config/custom/settings.vim
-for plugin_file in split(glob('~/.vim/config/**/*/*.vim'), '\n')
-     exe 'silent source' plugin_file
-endfor
-source ~/.vim/config/custom/mail.vim
-source ~/.vim/config/programming/ruby_rails/endwise.vim
-source ~/.vim/custom.vim
 
 " NeoBundleCheck
 NeoBundle 'yonchu/accelerated-smooth-scroll'
