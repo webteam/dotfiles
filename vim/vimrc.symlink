@@ -118,4 +118,3 @@ set showmode
 
 
 " NeoBundleCheck
-NeoBundle 'yonchu/accelerated-smooth-scroll'
