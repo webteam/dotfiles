@@ -8,9 +8,6 @@
 let mapleader=","
 
 
-"! ,w || Fast saving
-nmap <leader>w :w!<cr>
-
 "! Enter || Save in normal mode
 nmap <CR> :w<CR>
 
@@ -43,6 +40,13 @@ nnoremap <BS> :noh<CR><BS>
 
 "! ,s || toggle spelling mode
 nmap <silent> <leader>s :set spell!<CR>
+
+
+" ========================================
+" Location and Quickfix Navigation
+" ========================================
+nmap <leader>L :lprevious<CR>
+nmap <leader>l :lnext<CR>
 
 
 " ========================================
