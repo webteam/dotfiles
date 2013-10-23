@@ -13,5 +13,5 @@ nmap <silent> <leader>ww :wincmd =<CR>
 nmap <silent> <leader>hs :split<CR>
 "! ,vs || vertical split
 nmap <silent> <leader>vs :vsplit<CR>
-"! ,cs || close (split) window
-nmap <silent> <leader>sc :close<CR>
+"! ,wc || window close
+nmap <silent> <leader>wc :close<CR>
