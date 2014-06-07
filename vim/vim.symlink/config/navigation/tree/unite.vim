@@ -10,9 +10,9 @@ let g:unite_split_rule = 'botright'
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 nnoremap <leader>, :<C-u>Unite -no-split -buffer-name=files   -start-insert buffer file_rec/async:!<cr>
-nnoremap <leader>m :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<cr>
+"nnoremap <leader>m :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<cr>
 nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<cr>
-nnoremap <leader>k :<C-u>Unite -no-split -buffer-name=buffer  -start-insert buffer<cr>
+"#nnoremap <leader>k :<C-u>Unite -no-split -buffer-name=buffer  -start-insert buffer<cr>
 nnoremap <leader>s :Unite -quick-match buffer<cr>
 
 
@@ -62,4 +62,3 @@ NeoBundle 'h1mesuke/unite-outline'
 nnoremap <leader>o :<C-u>Unite -no-split -buffer-name=outline -start-insert outline<cr>
 
 
-NeoBundle 'sgur/unite-git_grep'
