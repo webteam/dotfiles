@@ -4,7 +4,7 @@ NeoBundle 'szw/vim-ctrlspace'
 
 let  g:ctrlspace_default_mapping_key = "<leader>k"
 
-nnoremap <leader>j :CtrlSpaceGoNext<cr>
+"nnoremap <leader>j :CtrlSpaceGoNext<cr>
 
 
 
