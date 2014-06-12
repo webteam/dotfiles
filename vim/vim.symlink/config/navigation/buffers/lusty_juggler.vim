@@ -6,10 +6,10 @@ NeoBundle "vim-scripts/LustyJuggler"
 
 let g:LustyJugglerDefaultMappings = 0
 
-map ,g :LustyJuggler<CR>
+"map ,g :LustyJuggler<CR>
 map ,j :LustyJugglePrevious<CR>
 let g:LustyJugglerShowKeys = '1'
 let g:LustyJugglerSuppressRubyWarning = 1
 
-"! ,g || command bar shows names of your currently opened buffers in most-recently-used order
+" ,g || command bar shows names of your currently opened buffers in most-recently-used order
 "! ,j || switch to your previously used buffer

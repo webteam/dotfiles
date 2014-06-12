@@ -2,6 +2,7 @@
 NeoBundle "Yggdroot/indentLine"
 
 let g:indentLine_char = '┊'
+let g:indentLine_faster = 1
 
 nmap ,ig :IndentLinesToggle<CR>
 "! ,ig || toggle indent guides
