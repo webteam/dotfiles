@@ -1,8 +1,11 @@
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme hybrid
 
 let g:airline_powerline_fonts = 0
 let g:airline_theme = 'dark'
+
+noremap <F11> <Esc>:doautocmd Syntax<CR>
+inoremap <F11> <C-o>:doautocmd Syntax<CR>
 
 
 if has("gui_running")
